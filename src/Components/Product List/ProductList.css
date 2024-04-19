@@ -1,0 +1,34 @@
+/* ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between product cards */
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px; /* Adjust width as desired */
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .product-price {
+    color: green;
+    font-size: 1.1rem;
+  }
+  

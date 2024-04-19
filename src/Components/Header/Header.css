@@ -1,0 +1,40 @@
+/* Header.css */
+
+/* Basic styling for the header container */
+.header {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px 20px; /* Padding around the header */
+    background-color: #f5f5f5; /* Light background color */
+    border-bottom: 1px solid #ccc; /* Bottom border for visual separation */
+}
+
+/* Styling for the logo container */
+.logo img {
+    height: 40px; /* Adjust the height of the logo image */
+    width: auto; /* Maintain the aspect ratio */
+}
+
+/* Styling for the navigation buttons container */
+.nav-buttons {
+    display: flex; /* Use flexbox layout */
+    gap: 10px; /* Space between the buttons */
+}
+
+/* Styling for buttons */
+button {
+    padding: 8px 12px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
