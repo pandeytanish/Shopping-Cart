@@ -9,12 +9,14 @@
   .product-card {
     border: 1px solid #ccc;
     padding: 10px;
+    
     width: 200px; /* Adjust width as desired */
     text-align: center;
   }
   
   .product-image {
     max-width: 100%;
+    width: 180px;
     height: auto;
   }
   
