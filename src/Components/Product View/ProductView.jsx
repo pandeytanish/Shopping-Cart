@@ -7,6 +7,10 @@ function ProductView() {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  const showMessage = () => {
+    console.log("hello")
+  }
+
   useEffect(() => {
     // Fetch the product data using the product ID
     fetch(`https://dummyjson.com/products/${id}`)
@@ -32,7 +36,7 @@ function ProductView() {
   return (
     <div className="product-view">
       <div className="product-header">
-        <img src={product.images[0]} alt={product.title} className="product-image" />
+        <img src={product.images[2]} alt={product.title} className="product-image" />
         <div className="product-info">
           <h2 className="product-title">{product.title}</h2>
           <p className="product-price">${product.price}</p>
@@ -47,7 +51,7 @@ function ProductView() {
         <p><strong>Category:</strong> {product.category}</p>
         <p><strong>Rating:</strong> {product.rating}</p>
         <p><strong>Stock:</strong> {product.stock}</p>
-        <button>Add To Cart</button>
+        <button onClick={showMessage()}>Add To Cart</button>
       </div>
     </div>
   );

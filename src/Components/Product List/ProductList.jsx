@@ -6,6 +6,8 @@ function ProductList() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
+
+
   useEffect(() => {
     // Fetch data from the API
     fetch('https://dummyjson.com/products')
